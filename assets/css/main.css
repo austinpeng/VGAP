@@ -3046,6 +3046,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 20em;
+/*            margin-top:1.2em*/
             margin-right:-4em;
 
 		}
@@ -3073,7 +3074,7 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 4em 5em 2em 5em ;
+			padding: 2em 5em 2em 5em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3188,16 +3189,16 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .content {
-/*				padding: 2em 2em 1em 2em ;*/
+				padding: 2em 2em 1em 2em ;
                 width:100%;
 			}
             .features{
                 margin-left:auto;
                 margin-right:auto;
-                width:90%;
+                width:100%;
             }
             #posh{
-                height:6em;
+                height:8em;
             }
             #logo{
                 height:6em;
@@ -3304,7 +3305,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-/*					padding: 1em 2em 1em 2em ;*/
+					padding: 1em 2em 1em 2em ;
 				}
 
 			}
