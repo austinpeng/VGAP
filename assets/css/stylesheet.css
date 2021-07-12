@@ -114,7 +114,8 @@
 @font-face {
     font-family: 'proxima_novaitalic';
     src: url('proximanova-regularit-02-webfont.woff2') format('woff2'),
-         url('proximanova-regularit-02-webfont.woff') format('woff');
+         url('proximanova-regularit-02-webfont.woff') format('woff'),
+         url('Proxima-Nova-Reg-It.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
