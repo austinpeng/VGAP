@@ -101,7 +101,8 @@
 @font-face {
     font-family: 'proxima_novaregular';
     src: url('proximanova-regular-01-webfont.woff2') format('woff2'),
-         url('proximanova-regular-01-webfont.woff') format('woff');
+         url('proximanova-regular-01-webfont.woff') format('woff'),
+         url('proxima_nova_reg-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
