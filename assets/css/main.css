@@ -3170,15 +3170,11 @@ input, select, textarea {
             .features{
                 margin-left:auto;
                 margin-right:auto;
-                width:70%;
-            }
-/*
-            .style3{
-                margin-left:auto;
-                margin-right:auto;
                 width:90%;
             }
-*/
+            #posh{
+                height:8em;
+            }
 
 		}
 
