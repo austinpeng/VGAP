@@ -5,7 +5,8 @@
 @font-face {
     font-family: 'proxima_novabold';
     src: url('proximanova-bold-03-webfont.woff2') format('woff2'),
-         url('proximanova-bold-03-webfont.woff') format('woff');
+         url('proximanova-bold-03-webfont.woff') format('woff'),
+         url('Proxima-Nova-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
