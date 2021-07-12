@@ -2185,6 +2185,9 @@ input, select, textarea {
 
 			.features {
 				display: block;
+                margin-left:auto;
+                margin-right:auto;
+                width:50%;
 			}
 
 				.features section {
@@ -3100,7 +3103,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 2em 4em 2em 4em ;
+/*				padding: 2em 4em 2em 4em ;*/
 			}
 
 		}
@@ -3108,16 +3111,29 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlights > section {
-				display: inline-block;
+/*				display: block;*/
+
+/*                width:100%;*/
 			}
 
+/*
 				.spotlights > section > .image {
-					width: 50%;
-					height: 35vh;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+				    width:50%;
+                    height:50vh;
 				}
+*/
 
 				.spotlights > section > .content {
-					width: 100%;
+/*
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+*/
+					width: 75%;
+                    padding-right:3em;
 				}
 
 				.spotlights > section.inactive > .content > .inner,
@@ -3131,15 +3147,38 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+        
+            .spotlights > section {
+				display:block;
+/*
+                margin-left: auto;
+                margin-right: auto;
+                width:%;
+*/
+			}
+            
 			.spotlights > section > .image {
-				height: 30vh;
-				min-height: 15em;
+                height:25vh;
+                margin-left: auto;
+                margin-right: auto;
 			}
 
 			.spotlights > section > .content {
-				padding: 2em 2em 1em 2em ;
+/*				padding: 2em 2em 1em 2em ;*/
+                width:100%;
 			}
+            .features{
+                margin-left:auto;
+                margin-right:auto;
+                width:70%;
+            }
+/*
+            .style3{
+                margin-left:auto;
+                margin-right:auto;
+                width:90%;
+            }
+*/
 
 		}
 
@@ -3242,7 +3281,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em ;
+/*					padding: 1em 2em 1em 2em ;*/
 				}
 
 			}
@@ -3318,7 +3357,7 @@ input, select, textarea {
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
-					min-height: 0;
+/*					min-height: 0;*/
 				}
 
 					body.is-ie .wrapper.fullscreen {
@@ -3885,7 +3924,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+/*				display: none;*/
 			}
 
 		}
