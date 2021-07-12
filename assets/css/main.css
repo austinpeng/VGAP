@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(stylesheet.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -74,7 +74,7 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: 100%;
+		width: device-width;
 	}
 
 	body {
@@ -116,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family:proxima nova,helvetica,sans-serif;
+		font-family:'proxima nova',helvetica,sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.5;
