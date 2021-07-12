@@ -125,16 +125,41 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
+            p{
+                font-size:16.5pt;
+            }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
+            p{
+                font-size:16pt;
+            }
+
+		}
+        @media screen and (max-width: 980px) {
+
+            body, input, select, textarea {
+                font-size: 13pt;
+            }
+            p{
+                font-size:15pt;
+            }
+
+		}
+        @media screen and (max-width: 736px) {
+            body, input, select, textarea {
+                font-size: 15pt;
+            }
+            p{
+                font-size:15pt;
+            }
 
 		}
 
@@ -3021,7 +3046,6 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 20em;
-            margin-top:1.2em;
             margin-right:-4em;
 
 		}
@@ -3133,7 +3157,7 @@ input, select, textarea {
                     margin-right: auto;
 */
 					width: 75%;
-                    padding-right:3em;
+                    padding-right:2em;
 				}
 
 				.spotlights > section.inactive > .content > .inner,
@@ -3158,7 +3182,7 @@ input, select, textarea {
 			}
             
 			.spotlights > section > .image {
-                height:25vh;
+                height:32vh;
                 margin-left: auto;
                 margin-right: auto;
 			}
